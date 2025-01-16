@@ -20,6 +20,30 @@ namespace RustAnalyzer.Models
             },
 
             {
+                ""HookName"": ""OnAdminHammerEnabled"",
+                ""HookParameters"": [""BasePlayer""],
+                ""PluginName"": ""AdminHammer""  
+            },
+
+            {
+                ""HookName"": ""OnAdminHammerDisabled"",
+                ""HookParameters"": [""BasePlayer""],
+                ""PluginName"": ""AdminHammer""  
+            },
+            
+            {
+                ""HookName"": ""OnAdminAdded"",
+                ""HookParameters"": [""BasePlayer""],
+                ""PluginName"": ""AdminKey""  
+            },
+
+            {
+                ""HookName"": ""OnAdminAdded"",
+                ""HookParameters"": [""BasePlayer""],
+                ""PluginName"": ""AdminKey""  
+            },
+
+            {
                 ""HookName"": ""OnRealSecond"",
                 ""HookParameters"": [],
                 ""PluginName"": ""aTimeAPI""  
